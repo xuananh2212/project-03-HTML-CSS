@@ -1,0 +1,139 @@
+:root {
+  --font-primakey: "Public Sans", sans-serif;
+  --font-sub-primakey: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--font-primakey);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* =============common=========== */
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1135px;
+  margin: 0 auto;
+  max-width: calc(100% - 48px);
+}
+
+.btn {
+  min-width: 173px;
+  padding: 14px 0 15px;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.56;
+  text-align: center;
+  color: #ffffff;
+  background: #143c3c;
+  border: 1.5px solid #143c3c;
+  border-radius: 999px;
+}
+
+.heading-lv1 {
+  font-weight: 800;
+  font-size: 5.0rem;
+  line-height: 1.2;
+  color: #152427;
+
+}
+
+/* header */
+.header {
+  position: sticky;
+  left: 0;
+  top: -16px;
+  padding: 16px 0 0;
+  z-index: 1;
+}
+
+.header__inner {
+  padding: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+.header__link {
+  display: flex;
+  margin-left: auto;
+  margin-right: 69px;
+  position: relative;
+}
+
+.header__link::after {
+  display: inline-block;
+  position: absolute;
+  left: 19px;
+  bottom: -28px;
+  content: "";
+  width: 16px;
+  height: 2px;
+  background: #143c3c;
+}
+
+.header__link__item {
+  padding: 4px 19px;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.56;
+  color: #575d5e;
+}
+
+.header__link__item__active,
+.header__link__item:hover {
+  text-shadow: 1px 0 0 #152427;
+}
+
+.hight-way {
+  height: 1px;
+  background: linear-gradient(90deg,
+      #ffffff 0%,
+      #dddcdc 51.09%,
+      rgba(213, 213, 213, 0) 99.68%);
+}
+
+/* hezo */
+.hezo {
+  padding: 60px 0 0;
+}
+
+.hezo__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* hezo-right */
+.hezo__media {
+  width: 56.92%;
+}
+
+.hezo__media__row {
+  display: flex;
+  column-gap: 20px;
+  height: 543px;
+}
+
+.hezo__media__item {
+  width: 31.27%;
+  height: 466px;
+  object-fit: cover;
+  border-radius: 110px;
+}
+
+.hezo__media__item:nth-child(2) {
+  align-self: flex-end;
+}
+
+/* hezo-left */
+
+.
