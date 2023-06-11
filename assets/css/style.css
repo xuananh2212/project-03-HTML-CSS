@@ -43,6 +43,9 @@ a {
   border: 1.5px solid #143c3c;
   border-radius: 999px;
 }
+.btn:hover {
+  opacity: 0.8;
+}
 
 .heading-lv1 {
   font-weight: 800;
