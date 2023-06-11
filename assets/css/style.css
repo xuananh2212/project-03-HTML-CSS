@@ -878,6 +878,11 @@ a {
 
 }
 
+.blog-body__items:last-child  .blog__lv3{
+  padding-bottom: 68px;
+
+}
+
 .blog-body {
   margin-top: 90px;
   display: flex;
@@ -1072,7 +1077,7 @@ a {
 }
 
 .footer__list__items {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .footer__list__items a {
@@ -1080,4 +1085,9 @@ a {
   font-size: 1.6rem;
   line-height: 2.25;
   color: #6A8383;
+}
+.footer-way{
+  height: 1px;
+  margin-top: 45px;
+  background: linear-gradient(90deg, #143C3C 2.28%, #295A5A 55.65%, rgba(38, 82, 82, 0) 102.06%);
 }
